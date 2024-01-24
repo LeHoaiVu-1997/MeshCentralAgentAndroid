@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="8%p">
+    <Row android:verticalGap="0.5%p"  android:horizontalGap="0.5%p" android:keyWidth="11.9%p">
+        <Key android:codes="33"    android:keyLabel="!" />
+        <Key android:codes="64"    android:keyLabel="@string/at_char" />
+        <Key android:codes="35"    android:keyLabel="#" />
+        <Key android:codes="36"    android:keyLabel="$" />
+        <Key android:codes="37"    android:keyLabel="%" />
+        <Key android:codes="94"    android:keyLabel="^" />
+        <Key android:codes="38"    android:keyLabel="@string/and_char" />
+        <Key android:codes="42"    android:keyLabel="*"  />
+
+    </Row>
+    <Row android:verticalGap="0.5%p"  android:horizontalGap="0.5%p" android:keyWidth="11.9%p">
+        <Key android:codes="45"    android:keyLabel="-" />
+        <Key android:codes="95"    android:keyLabel="_" />
+        <Key android:codes="61"    android:keyLabel="=" />
+        <Key android:codes="43"    android:keyLabel="+" />
+        <Key android:codes="123"    android:keyLabel="{" />
+        <Key android:codes="125"    android:keyLabel="}" />
+        <Key android:codes="91"    android:keyLabel="[" />
+        <Key android:codes="93"    android:keyLabel="]"  />
+    </Row>
+    <Row android:verticalGap="0.5%p" android:horizontalGap="0.5%p" android:keyWidth="11.9%p">
+        <Key android:codes="126"    android:keyLabel="~" />
+        <Key android:codes="59"    android:keyLabel=";" />
+        <Key android:codes="58"    android:keyLabel=":" />
+        <Key android:codes="47"    android:keyLabel="/" />
+        <Key android:codes="92"    android:keyLabel="@string/backslash_char"/>
+        <Key android:codes="40"    android:keyLabel="("  />
+        <Key android:codes="41"    android:keyLabel=")" />
+        <Key android:codes="124"    android:keyLabel="|" />
+    </Row>
+    <Row android:verticalGap="0.5%p"  android:horizontalGap="0.5%p" android:keyWidth="11.9%p">
+        <Key android:codes="96"      android:keyLabel="`"
+            android:keyWidth="18.1%p"/>
+        <Key android:codes="63"    android:keyLabel="@string/question_char" />
+        <Key android:codes="39"    android:keyLabel="@string/single_quote_char" />
+        <Key android:codes="34"    android:keyLabel="@string/double_quote_char" />
+        <Key android:codes="60"    android:keyLabel="&lt;" />
+        <Key android:codes="62"    android:keyLabel="&gt;" />
+        <Key android:codes="-5"     android:keyLabel="Del"
+            android:keyWidth="18.1%p"
+            android:horizontalGap="1%p"/>
+    </Row>
+    <Row android:verticalGap="0.5%p"  android:horizontalGap="0.5%p" android:keyWidth="9.6%p">
+        <Key android:codes="-2"    android:keyLabel="!@#..."
+            android:keyWidth="18.7%p"/>
+        <Key android:codes="44"     android:keyLabel="," android:horizontalGap="1%p"/>
+        <Key android:codes="32"     android:keyLabel="SPACE" android:keyWidth="40%p"/>
+        <Key android:codes="46"     android:keyLabel="."/>
+        <Key android:codes="10"     android:keyLabel="Enter"
+            android:keyWidth="18.5%p" android:horizontalGap="1%p"/>
+    </Row>
+</Keyboard>
